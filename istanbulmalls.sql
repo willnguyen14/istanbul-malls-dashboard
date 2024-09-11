@@ -109,8 +109,8 @@ SELECT shopping_mall,
 FROM customer_shopping_data$
 GROUP BY shopping_mall, YEAR(invoice_date), MONTH(invoice_date)
 ORDER BY shopping_mall,
-		 DATEPART(YEAR, invoice_date),
-		 DATEPART(MONTH, invoice_date);
+	 DATEPART(YEAR, invoice_date),
+	 DATEPART(MONTH, invoice_date);
 
 
 -- daily revenue by mall
@@ -118,9 +118,9 @@ SELECT shopping_mall, invoice_date, SUM(price_usd) AS daily_revenue_by_mall
 FROM customer_shopping_data$
 GROUP BY shopping_mall, invoice_date
 ORDER BY shopping_mall,
-		 DATEPART(YEAR, invoice_date) DESC,
-		 DATEPART(MONTH, invoice_date) DESC,
-		 DATEPART(DAY, invoice_date) DESC;
+	 DATEPART(YEAR, invoice_date) DESC,
+	 DATEPART(MONTH, invoice_date) DESC,
+	 DATEPART(DAY, invoice_date) DESC;
 
 
 -- total number of customers for each mall across entire data
