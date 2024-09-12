@@ -15,7 +15,7 @@ Questions for the data:
 - How many customers do each mall bring in yearly?
 ## **Documentation**
 
-**Microsoft Excel Version:** Version 2408 Build 16.0.17928.20114) 64-bit
+**Microsoft Excel Version:** Version 2408 Build 16.0.17928.20114 64-bit
 
 **Microsoft SQL Server Mangagement Studio Version:** 18.12.1
 
